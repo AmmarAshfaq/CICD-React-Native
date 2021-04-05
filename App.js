@@ -17,7 +17,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-
+import Write from './components/write'
 import {
   Colors,
   DebugInstructions,
@@ -65,6 +65,7 @@ const App: () => Node = () => {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
+          <Write/>
         <Text>CICD Pipeline</Text>
       </ScrollView>
     </SafeAreaView>
